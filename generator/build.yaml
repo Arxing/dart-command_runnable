@@ -1,6 +1,6 @@
 builders:
   retrofit_commandable:
-    import: "package:retrofit_commandable/builder.dart"
+    import: "package:retrofit_commandable_generator/builder.dart"
     builder_factories:
     - retrofitCommandBuilder
     build_extensions: {".dart": [".comm.dart"]}

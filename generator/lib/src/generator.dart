@@ -9,10 +9,16 @@ class RetrofitCommGenerator extends GeneratorForAnnotation<RetrofitCommandable> 
     if (element.kind != ElementKind.CLASS) return null;
 
     ClassElement classElement = element as ClassElement;
+    classElement.methods.where((methodElement) {
+      methodElement.metadata.any((annotation) {
+        var name = annotation.element.name;
+        print('name=$name');
+      });
+    });
+
 //    classElement.methods.where((m){
 //      m.metadata.first.element.
 //    })
-
 
     return null;
   }

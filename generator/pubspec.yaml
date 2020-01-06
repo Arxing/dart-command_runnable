@@ -12,7 +12,8 @@ dependencies:
   source_gen: ^0.9.4+7
   retrofit_commandable:
     git:
-      path: https://github.com/Arxing/dart-retrofit_commandable.git
+      url: https://github.com/Arxing/dart-retrofit_commandable.git
+      path: annotation
 
 dev_dependencies:
   test: ^1.6.0

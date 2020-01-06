@@ -1,3 +1,3 @@
 library retrofit_commandable;
 
-export 'comm.dart';
+export 'annotations.dart';

@@ -1,0 +1,9 @@
+builders:
+  retrofit_commandable:
+    import: "package:retrofit_commandable/builder.dart"
+    builder_factories:
+    - retrofitCommandBuilder
+    build_extensions: {".dart": [".comm.dart"]}
+    auto_apply: root_package
+    build_to: source
+    runs_before: ["json_serializable"]

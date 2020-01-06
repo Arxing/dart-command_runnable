@@ -1,18 +1,18 @@
-name: retrofit_commandable
+name: retrofit_commandable_generator
 description: A starting point for Dart libraries or applications.
 # version: 1.0.0
 # homepage: https://www.example.com
 # author: arxing <meiswind711108@gmail.com>
 
 environment:
-  sdk: '>=2.5.0 <3.0.0'
+  sdk: '>=2.5.2 <3.0.0'
 
 dependencies:
   path: ^1.6.0
-  source_gen: any
+  source_gen: ^0.9.4+7
   retrofit_commandable:
     path: ../annotation
 
 dev_dependencies:
   test: ^1.6.0
-  build_runner: any
+  build_runner: ^1.6.7

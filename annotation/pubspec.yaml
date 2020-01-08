@@ -1,7 +1,7 @@
 name: command_runnable
 description:
 version: 1.0.0
-homepage: https://github.com/Arxing/dart-retrofit_commandable
+homepage: https://github.com/Arxing/dart-command_runnable
 author: arxing <meiswind711108@gmail.com>
 
 environment:

@@ -1,4 +1,4 @@
-name: retrofit_commandable_generator
+name: command_runnable_generator
 description: A starting point for Dart libraries or applications.
 # version: 1.0.0
 # homepage: https://www.example.com
@@ -10,10 +10,13 @@ environment:
 dependencies:
   path: ^1.6.0
   source_gen: ^0.9.4+7
-  retrofit_commandable:
-    git:
-      url: https://github.com/Arxing/dart-retrofit_commandable.git
-      path: annotation
+  command_runnable:
+    path: W:\dart\command_runnable\annotation
+#    git:
+#      url: https://github.com/Arxing/dart-retrofit_commandable.git
+#      path: annotation
+  build: ^1.2.1
+  dartpoet: ^1.0.6+3
 
 dev_dependencies:
   test: ^1.6.0

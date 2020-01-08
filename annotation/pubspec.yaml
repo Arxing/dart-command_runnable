@@ -1,4 +1,4 @@
-name: retrofit_commandable
+name: command_runnable
 description:
 version: 1.0.0
 homepage: https://github.com/Arxing/dart-retrofit_commandable

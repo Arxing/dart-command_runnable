@@ -1,8 +1,8 @@
 builders:
-  retrofit_commandable:
-    import: "package:retrofit_commandable_generator/builder.dart"
+  command_runnable:
+    import: "package:command_runnable_generator/builder.dart"
     builder_factories:
-    - retrofitCommandBuilder
+    - runnableBuilder
     build_extensions: {".dart": [".comm.dart"]}
     auto_apply: root_package
     build_to: source
